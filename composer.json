@@ -1,0 +1,29 @@
+{
+    "name": "hanami/hanami-library",
+    "description": "A General Pourpose Library by Hanami Software. Databases, Mailer, Payments, Authentication, etc",
+    "type": "library",
+    "require": {
+        "firebase/php-jwt": "^6.10",
+        "doctrine/orm": "^3.2",
+        "php": ">8.0",
+        "phpmailer/phpmailer": "^6.9",
+        "paypal/rest-api-sdk-php": "^1.14",
+        "vlucas/phpdotenv": "^5.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
+    "license": "mit",
+    "autoload": {
+        "psr-4": {
+            "Hanami\\": "HanamiLibrary/src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "FRANCESCO BIAGINI",
+            "email": "info@hanamisoftware.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
