@@ -7,6 +7,8 @@
     <RuntimeVersion>8.1</RuntimeVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Folder Include="src\" />
+    <Folder Include="tests\" />
+    <Folder Include="src\Mailer\" />
+    <Folder Include="src\Payments\" />
   </ItemGroup>
 </Project>

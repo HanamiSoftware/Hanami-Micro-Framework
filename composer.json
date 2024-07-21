@@ -16,7 +16,7 @@
     "license": "mit",
     "autoload": {
         "psr-4": {
-            "Hanami\\": "HanamiLibrary/src/"
+            "Hanami\\": "src/"
         }
     },
     "authors": [
@@ -25,5 +25,5 @@
             "email": "info@hanamisoftware.com"
         }
     ],
-    "minimum-stability": "stable"
+    "minimum-stability": "beta"
 }

@@ -42,7 +42,7 @@ class ComposerStaticInit5faa49fcde24cf0d5ff2eaeaf369acc5
         ),
         'H' => 
         array (
-            'Hanami\\HanamiLibrary\\' => 21,
+            'Hanami\\' => 7,
         ),
         'G' => 
         array (
@@ -129,7 +129,7 @@ class ComposerStaticInit5faa49fcde24cf0d5ff2eaeaf369acc5
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
-        'Hanami\\HanamiLibrary\\' => 
+        'Hanami\\' => 
         array (
             0 => __DIR__ . '/../..' . '/src',
         ),
