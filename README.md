@@ -1,1 +1,1 @@
-# Hanami Standard Library
+# Hanami Foundation Library
