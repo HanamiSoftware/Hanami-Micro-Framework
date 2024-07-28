@@ -4,7 +4,8 @@ I thought about this library to make the developer's life a little bit easier wi
 1. Doctrine for database
 2. Paypal for payments and subsciptions
 3. Auth via JWT for authentication
-4. Config via .env file
+4. Mailer via PhpMailer
+5. Config via .env file
 
 # How to use the Library
 first thing first copy and paste the .env.example file in your root directory
