@@ -15,7 +15,7 @@ put all the username, password, email address or any other key inside the file
 
 # Do you want to Add some more?
 
-## follow our Coding Conventions
+## follow our Conventions
 ### Hanami Software Coding Conventions
 
 Hanami Software adopts the following coding conventions to ensure consistency, readability, and maintainability of code. The conventions are based on PSR-4 and adhere to classical PHP standards.
