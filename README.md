@@ -67,10 +67,15 @@ Interface names must end with the word “Interface” and follow the PascalCase
 
 Example:
 ```php
+/**
+ * A short description.
+ * @param if any params
+ * @return always describe the return type expected.
+ */
 interface DatabaseInterface
 {
-    public function connect();
-    public function query($sql);
+    public function connect():bool|databaseInstance;
+    public function query($sql):string;
 }
 ```
 
@@ -170,10 +175,10 @@ Example of block comment:
 class UserModel
 {
     /**
-     * Returns the ID of the user.
-     *
-     * @return int
-     */
+ * A short description.
+ * @param if any params
+ * @return always describe the return type expected.
+ */
     public function getId()
     {
         return $this->id;
