@@ -40,7 +40,6 @@ class ComposerStaticInit5faa49fcde24cf0d5ff2eaeaf369acc5
             'Psr\\Cache\\' => 10,
             'PhpParser\\' => 10,
             'PhpOption\\' => 10,
-            'PHPMailer\\PHPMailer\\' => 20,
         ),
         'O' => 
         array (
@@ -121,7 +120,7 @@ class ComposerStaticInit5faa49fcde24cf0d5ff2eaeaf369acc5
         ),
         'Psr\\Log\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
+            0 => __DIR__ . '/..' . '/psr/log/src',
         ),
         'Psr\\Container\\' => 
         array (
@@ -138,10 +137,6 @@ class ComposerStaticInit5faa49fcde24cf0d5ff2eaeaf369acc5
         'PhpOption\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpoption/phpoption/src/PhpOption',
-        ),
-        'PHPMailer\\PHPMailer\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
         'OpenApi\\' => 
         array (
@@ -202,16 +197,6 @@ class ComposerStaticInit5faa49fcde24cf0d5ff2eaeaf369acc5
         'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
-        ),
-    );
-
-    public static $prefixesPsr0 = array (
-        'P' => 
-        array (
-            'PayPal' => 
-            array (
-                0 => __DIR__ . '/..' . '/paypal/rest-api-sdk-php/lib',
-            ),
         ),
     );
 
@@ -1394,7 +1379,6 @@ class ComposerStaticInit5faa49fcde24cf0d5ff2eaeaf369acc5
         return \Closure::bind(function () use ($loader) {
             $loader->prefixLengthsPsr4 = ComposerStaticInit5faa49fcde24cf0d5ff2eaeaf369acc5::$prefixLengthsPsr4;
             $loader->prefixDirsPsr4 = ComposerStaticInit5faa49fcde24cf0d5ff2eaeaf369acc5::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit5faa49fcde24cf0d5ff2eaeaf369acc5::$prefixesPsr0;
             $loader->classMap = ComposerStaticInit5faa49fcde24cf0d5ff2eaeaf369acc5::$classMap;
 
         }, null, ClassLoader::class);

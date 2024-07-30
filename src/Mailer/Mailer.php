@@ -11,7 +11,7 @@ namespace Hanami\Mailer {
      */
     use PHPMailer\PHPMailer\PHPMailer;
     use PHPMailer\PHPMailer\Exception;
-    use Hanami\Config\Config;
+    use Hanami\Core\Config\Config;
 
     class Mailer
     {

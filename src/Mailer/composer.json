@@ -1,0 +1,21 @@
+{
+  "name": "hanami/hanami-mailer",
+  "description": "a Mailer add on for Hanami Core Library",
+  "type": "library",
+  "require": {
+    "phpmailer/phpmailer": "^6.9"
+  },
+  "license": "mit",
+  "autoload": {
+    "psr-4": {
+      "Hanami\\Mailer\\": "src/Mailer"
+    }
+  },
+  "authors": [
+    {
+      "name": "FRANCESCO BIAGINI",
+      "email": "info@hanamisoftware.com"
+    }
+  ],
+  "minimum-stability": "beta"
+}
