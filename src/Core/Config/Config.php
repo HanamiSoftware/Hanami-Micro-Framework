@@ -19,7 +19,7 @@ namespace Hanami\Core\Config
 
         private function _construct()
         {
-            $dotenv = Dotenv::createImmutable(__DIR__ . '/../../');
+            $dotenv = Dotenv::createImmutable(__DIR__ . '/../../../');
             $dotenv->load();
             $this->env = $_ENV;
         }
